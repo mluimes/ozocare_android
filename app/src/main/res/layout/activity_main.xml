@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/botonBuscarDispositivosBTLE"
+        android:text="Buscar Dispositivos BTLE nou 4"
+        android:onClick="botonBuscarDispositivosBTLEPulsado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:id="@+id/botonDetenerBusquedaDispositivosBTLE"
+        android:text="Detener búsqueda Dispositivos BTLE"
+        android:onClick="botonDetenerBusquedaDispositivosBTLEPulsado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:id="@+id/botonBuscarNuestroDispositivoBTLE"
+        android:text="Buscar nuestro dispositivo  BTLE"
+        android:onClick="botonBuscarNuestroDispositivoBTLEPulsado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+</android.widget.LinearLayout>
